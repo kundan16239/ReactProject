@@ -1,0 +1,119 @@
+@media only screen and (max-width: 1024px) {
+    .yellow1 {
+        display: inline-flex;
+        width: 48%;
+        height: 200px;
+        background-color: yellow;
+        margin-right: 5px;
+    }
+    .yellow2 {
+        display: inline-flex;
+        width: 48%;
+        height: 200px;
+        background-color: yellow;
+    }
+    .red {
+        display: inline-flex;
+        margin-top: 20px;
+        width: 100%;
+        height: 200px;
+        background-color: red;
+    }
+    .blue1 {
+        display: inline-flex;
+        width: 100%;
+        height: 200px;
+        background-color: blue;
+        margin-top: 20px;
+    }
+    .blue2 {
+        display: inline-flex;
+        width: 100%;
+        height: 200px;
+        background-color: blue;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .yellow1 {
+        display: inline-flex;
+        width: 49%;
+        height: 200px;
+        background-color: yellow;
+        margin-right: 5px;
+    }
+    .yellow2 {
+        display: inline-flex;
+        width: 49%;
+        height: 200px;
+        background-color: yellow;
+    }
+    .red {
+        display: inline-flex;
+        margin-top: 20px;
+        width: 100%;
+        height: 200px;
+        background-color: red;
+    }
+    .blue1 {
+        display: inline-flex;
+        width: 33%;
+        height: 200px;
+        background-color: blue;
+        margin-right: 5px;
+        margin-top: 20px;
+    }
+    .blue2 {
+        display: inline-flex;
+        width: 33%;
+        height: 200px;
+        background-color: blue;
+        margin-right: 5px;
+        margin-top: 20px;
+    }
+    .blue3 {
+        display: inline-flex;
+        width: 32%;
+        height: 200px;
+        background-color: blue;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .yellow1 {
+        display: inline-flex;
+        width: 100%;
+        height: 200px;
+        background-color: yellow;
+        margin-right: 58px;
+    }
+    .yellow2 {
+        display: inline-flex;
+        width: 100%;
+        height: 200px;
+        background-color: yellow;
+    }
+    .red {
+        display: inline-flex;
+        margin-top: 20px;
+        width: 100%;
+        height: 200px;
+        background-color: red;
+    }
+    .blue1 {
+        display: inline-flex;
+        width: 100%;
+        height: 200px;
+        background-color: blue;
+        margin-top: 20px;
+    }
+    .blue2 {
+        display: inline-flex;
+        width: 100%;
+        height: 200px;
+        background-color: blue;
+        margin-top: 20px;
+    }
+}
