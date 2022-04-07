@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.site-container {
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    height: 7vh;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customer-info {
+    display: flex;
+    height: 10vh;
+    border: 2px solid black;
+    margin-top: 20px;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.order-info {
+    align-items: center;
+    display: flex;
+    height: 10vh;
+    border: 2px solid black;
+    margin-top: 20px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.product-list {
+    display: flex;
+    height: 12vh;
+    border: 2px solid black;
+    margin-top: 20px;
+    text-align: left;
+    align-items: center;
+}
+
+.header-h3-1 {
+    font-style: bold;
+}
+
+.header-h3-2 {
+    color: gray;
+}
+
+button {
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.arrow {
+    margin-left: 15px;
+}
+
+img {
+    width: 10vh;
+    height: 10vh;
 }
