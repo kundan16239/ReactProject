@@ -4,9 +4,23 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const obj = {
+  name: "Alan Ford",
+  id: "00005152",
+  appointment: "9:00 (24-05-2016)",
+  email: "alan.form@email.nl",
+  phone: "+31123456789",
+  status: "In Progress",
+  door: "Mark",
+  time: "10:30 (25-05-2016)",
+  profileImg: "https://www.w3schools.com/howto/img_avatar.png",
+  appointerName: "Boltaart Bosbessen",
+  appointerDetails: "Overheerlijke Boltaart met Bosbessen uit de keuken van de Bijenkorf"
+}
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App obj={obj} />
   </React.StrictMode>,
   document.getElementById('root')
 );
