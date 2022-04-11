@@ -3,14 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Postview from './Postview';
 import reportWebVitals from './reportWebVitals';
-
+import Landingpage from './Landingpage'
+import { BrowserRouter } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Postview />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landingpage />} />
+        <Route Route path="/Postview" element={<Postview />} />
+      </Routes>
+    </BrowserRouter>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
