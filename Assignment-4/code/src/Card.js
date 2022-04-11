@@ -22,6 +22,9 @@ export default function Card(Props) {
           </div>
           <h3>{Props.details.date}</h3>
         </div>
+        <div className="likes">
+          <h4>{Props.details.likes} likes</h4>
+        </div>
         <div>
           <h3>{Props.details.description}</h3>
         </div>
